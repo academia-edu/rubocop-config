@@ -16,6 +16,9 @@ Bundler/DuplicatedGem:
 Bundler/InsecureProtocolSource:
   Enabled: true
 
+Bundler/OrderedGems:
+  Enabled: true
+
 Capybara/CurrentPathExpectation:
   Enabled: true
 
