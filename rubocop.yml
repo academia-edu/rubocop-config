@@ -636,6 +636,9 @@ Rails/BulkChangeTable:
 Rails/DelegateAllowBlank:
   Enabled: true
 
+Rails/EnumHash:
+  Enabled: true
+
 Rails/EnumUniqueness:
   Enabled: true
 
