@@ -884,9 +884,6 @@ Style/RedundantSort:
 Style/RedundantSortBy:
   Enabled: true
 
-Style/Sample:
-  Enabled: true
-
 Style/SelfAssignment:
   Enabled: true
 
