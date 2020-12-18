@@ -19,12 +19,6 @@ Bundler/InsecureProtocolSource:
 Bundler/OrderedGems:
   Enabled: true
 
-Capybara/CurrentPathExpectation:
-  Enabled: true
-
-FactoryBot/AttributeDefinedStatically:
-  Enabled: true
-
 Gemspec/DuplicatedAssignment:
   Enabled: true
 
@@ -180,6 +174,9 @@ Lint/AssignmentInCondition:
   Enabled: true
 
 Lint/BigDecimalNew:
+  Enabled: true
+
+Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: true
 
 Lint/BooleanSymbol:
@@ -376,9 +373,6 @@ Lint/UselessAccessModifier:
 Lint/UselessAssignment:
   Enabled: true
 
-Lint/UselessComparison:
-  Enabled: true
-
 Lint/UselessElseWithoutRescue:
   Enabled: true
 
@@ -478,6 +472,9 @@ RSpec/Be:
 RSpec/BeEql:
   Enabled: true
 
+RSpec/Capybara/CurrentPathExpectation:
+  Enabled: true
+
 RSpec/DescribeMethod:
   Enabled: true
 
@@ -486,7 +483,6 @@ RSpec/DescribeSymbol:
 
 RSpec/EmptyExampleGroup:
   Enabled: true
-  CustomIncludeMethods: []
   Exclude:
   - spec/support/**/*
 
@@ -523,6 +519,9 @@ RSpec/ExpectActual:
 RSpec/ExpectOutput:
   Enabled: true
 
+RSpec/FactoryBot/AttributeDefinedStatically:
+  Enabled: true
+
 RSpec/FilePath:
   Enabled: true
   CustomTransform:
@@ -545,9 +544,6 @@ RSpec/ImplicitSubject:
   EnforcedStyle: single_line_only
 
 RSpec/InstanceSpy:
-  Enabled: true
-
-RSpec/InvalidPredicateMatcher:
   Enabled: true
 
 RSpec/ItBehavesLike:
