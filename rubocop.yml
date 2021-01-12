@@ -782,9 +782,6 @@ Style/MethodCallWithoutArgsParentheses:
 Style/MethodDefParentheses:
   Enabled: true
 
-Style/MethodMissingSuper:
-  Enabled: true
-
 Style/MinMax:
   Enabled: true
 
