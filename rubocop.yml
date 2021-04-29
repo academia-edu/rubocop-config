@@ -848,7 +848,7 @@ Style/RandomWithOffset:
   Enabled: true
 
 Style/RedundantBegin:
-  Enabled: true
+  Enabled: false
 
 Style/RedundantCapitalW:
   Enabled: true
