@@ -1,0 +1,142 @@
+require:
+  - rubocop-rspec
+
+RSpec/AroundBlock:
+  Enabled: true
+
+RSpec/Be:
+  Enabled: true
+
+RSpec/BeEql:
+  Enabled: true
+
+RSpec/Capybara/CurrentPathExpectation:
+  Enabled: true
+
+RSpec/DescribeMethod:
+  Enabled: true
+
+RSpec/DescribeSymbol:
+  Enabled: true
+
+RSpec/EmptyExampleGroup:
+  Enabled: true
+  Exclude:
+  - spec/support/**/*
+
+RSpec/EmptyLineAfterExampleGroup:
+  Enabled: true
+
+RSpec/EmptyLineAfterFinalLet:
+  Enabled: true
+
+RSpec/EmptyLineAfterHook:
+  Enabled: true
+
+RSpec/EmptyLineAfterSubject:
+  Enabled: true
+
+RSpec/ExampleWithoutDescription:
+  Enabled: true
+  EnforcedStyle: always_allow
+
+RSpec/ExampleWording:
+  Enabled: true
+  CustomTransform:
+    be: is
+    BE: IS
+    have: has
+    HAVE: HAS
+  IgnoredWords: []
+
+RSpec/ExpectActual:
+  Enabled: true
+  Exclude:
+  - spec/routing/**/*
+
+RSpec/ExpectOutput:
+  Enabled: true
+
+RSpec/FactoryBot/AttributeDefinedStatically:
+  Enabled: true
+
+RSpec/FilePath:
+  Enabled: true
+  CustomTransform:
+    RuboCop: rubocop
+    RSpec: rspec
+  IgnoreMethods: false
+
+RSpec/Focus:
+  Enabled: true
+
+RSpec/HookArgument:
+  Enabled: true
+  EnforcedStyle: implicit
+
+RSpec/HooksBeforeExamples:
+  Enabled: true
+
+RSpec/ImplicitSubject:
+  Enabled: true
+  EnforcedStyle: single_line_only
+
+RSpec/InstanceSpy:
+  Enabled: true
+
+RSpec/ItBehavesLike:
+  Enabled: true
+  EnforcedStyle: it_behaves_like
+
+RSpec/IteratedExpectation:
+  Enabled: true
+
+RSpec/LetBeforeExamples:
+  Enabled: true
+
+RSpec/MissingExampleGroupArgument:
+  Enabled: true
+
+RSpec/MultipleDescribes:
+  Enabled: true
+
+RSpec/MultipleSubjects:
+  Enabled: true
+
+RSpec/NotToNot:
+  EnforcedStyle: not_to
+  Enabled: true
+
+RSpec/OverwritingSetup:
+  Enabled: true
+
+RSpec/ReceiveCounts:
+  Enabled: true
+
+RSpec/ReceiveNever:
+  Enabled: true
+
+RSpec/RepeatedDescription:
+  Enabled: true
+
+RSpec/RepeatedExample:
+  Enabled: true
+
+RSpec/ReturnFromStub:
+  Enabled: true
+  EnforcedStyle: and_return
+
+RSpec/SharedContext:
+  Enabled: true
+
+RSpec/SharedExamples:
+  Enabled: true
+
+RSpec/SingleArgumentMessageChain:
+  Enabled: true
+
+RSpec/UnspecifiedException:
+  Enabled: true
+
+RSpec/VoidExpect:
+  Enabled: true

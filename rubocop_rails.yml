@@ -1,0 +1,54 @@
+require:
+  - rubocop-rails
+
+Rails/ActionFilter:
+  Enabled: true
+
+Rails/ActiveRecordAliases:
+  Enabled: true
+
+Rails/ActiveSupportAliases:
+  Enabled: true
+
+Rails/ApplicationJob:
+  Enabled: true
+
+Rails/AssertNot:
+  Enabled: true
+  Include:
+  - "**/test/**/*"
+
+Rails/BulkChangeTable:
+  Enabled: true
+  Database:
+  SupportedDatabases:
+  - mysql
+  - postgresql
+  Include:
+  - db/migrate/*.rb
+
+Rails/DelegateAllowBlank:
+  Enabled: true
+
+Rails/EnumHash:
+  Enabled: true
+
+Rails/EnumUniqueness:
+  Enabled: true
+
+Rails/NotNullColumn:
+  Enabled: true
+
+Rails/RefuteMethods:
+  Enabled: true
+  Include:
+  - "**/test/**/*"
+
+Rails/RelativeDateConstant:
+  Enabled: true
+
+Rails/ReversibleMigration:
+  Enabled: true
+
+Rails/ScopeArgs:
+  Enabled: true
