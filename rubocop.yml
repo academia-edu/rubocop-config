@@ -624,6 +624,10 @@ Style/RedundantSortBy:
 Style/SelfAssignment:
   Enabled: true
 
+Style/Semicolon:
+  Enabled: true
+  AllowAsExpressionSeparator: true
+
 Style/SignalException:
   Enabled: true
 
