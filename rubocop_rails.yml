@@ -36,6 +36,9 @@ Rails/EnumHash:
 Rails/EnumUniqueness:
   Enabled: true
 
+Rails/EnvironmentComparison:
+  Enabled: true
+
 Rails/NotNullColumn:
   Enabled: true
 
@@ -51,4 +54,7 @@ Rails/ReversibleMigration:
   Enabled: true
 
 Rails/ScopeArgs:
+  Enabled: true
+
+Rails/UnknownEnv:
   Enabled: true
