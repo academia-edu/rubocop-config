@@ -1,6 +1,14 @@
 require:
   - rubocop-rails
 
+## Rails-related configuration for cops that *don't* come from Rubocop Rails
+Style/SymbolProc:
+  AllowedMethods:
+    - define_method
+    - mail
+    - respond_to
+
+## Configuration for Rubocop Rails cops
 Rails/ActionFilter:
   Enabled: true
 
