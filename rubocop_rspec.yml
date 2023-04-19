@@ -10,9 +10,6 @@ RSpec/Be:
 RSpec/BeEql:
   Enabled: true
 
-RSpec/Capybara/CurrentPathExpectation:
-  Enabled: true
-
 RSpec/DescribeMethod:
   Enabled: true
 
