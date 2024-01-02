@@ -9,9 +9,6 @@ Style/SymbolProc:
     - respond_to
 
 ## Configuration for Rubocop Rails cops
-Rails/ActionFilter:
-  Enabled: true
-
 Rails/ActiveRecordAliases:
   Enabled: true
 
