@@ -47,6 +47,9 @@ Rails/EnvironmentComparison:
 Rails/NotNullColumn:
   Enabled: true
 
+Rails/Pick:
+  Enabled: true
+
 Rails/RefuteMethods:
   Enabled: true
   Include:
