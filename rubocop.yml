@@ -489,6 +489,9 @@ Style/EvalWithLocation:
 Style/EvenOdd:
   Enabled: true
 
+Style/ExpandPathArguments:
+  Enabled: true
+
 Style/ExponentialNotation:
   Enabled: true
 
