@@ -59,3 +59,9 @@ Performance/StringReplacement:
 
 Performance/TimesMap:
   Enabled: true
+
+Performance/UnfreezeString:
+  Enabled: true
+
+Performance/UriDefaultParser:
+  Enabled: true
