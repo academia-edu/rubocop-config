@@ -54,9 +54,6 @@ RSpec/ExpectActual:
 RSpec/ExpectOutput:
   Enabled: true
 
-RSpec/FactoryBot/AttributeDefinedStatically:
-  Enabled: true
-
 RSpec/FilePath:
   Enabled: true
   CustomTransform:
